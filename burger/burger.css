@@ -58,3 +58,31 @@ h1 {
 .img-hero img {
     width: 100%;
 }
+
+nav {
+    display: none;
+}
+/* pc */
+@media (min-width: 768px) {
+
+    .burger-menu {
+        display: none;
+    }
+    
+    nav {
+
+        display: block;
+    }
+
+    nav ul li {
+        display: inline;
+        margin-right: 30px;
+    }
+
+    nav ul li a {
+        display: inline-block;
+        text-decoration: none;
+        color: #333;
+        
+    }
+}
