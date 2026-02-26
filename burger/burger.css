@@ -31,6 +31,8 @@ body {
 }
 
 #hero {
+    display: flex;
+    flex-direction: column;
     padding: 32px;
 }
 
@@ -68,9 +70,8 @@ nav {
     .burger-menu {
         display: none;
     }
-    
-    nav {
 
+    nav {
         display: block;
     }
 
@@ -83,6 +84,11 @@ nav {
         display: inline-block;
         text-decoration: none;
         color: #333;
-        
+    }
+
+    #hero {
+        flex-direction: row;
+        align-items: center;
+        gap: 40px;
     }
 }
