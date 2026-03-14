@@ -1,5 +1,5 @@
-// 4. cek bilangan
-let angka = -10
+// 4. cek bilangan (menggunakan if ... else if)
+let angka = 0
 
 if (angka > 0) {
     console.log("positif") // jika angka kurang dari 0 maka positif

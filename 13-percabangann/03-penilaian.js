@@ -1,4 +1,4 @@
-// 3. penilaian (koversi nilai ke huruf)
+// 3. penilaian (koversi nilai ke huruf) (menggunakan if ... else if)
 let nilai = 75
 
 if (nilai >= 90) {

@@ -1,4 +1,4 @@
-// 2. Validasi login (simulasi login sederhana)
+// 2. Validasi login (simulasi login sederhana) (menggunakan if ... else)
 let username = "admin"
 let password = "1234"
 // jika username = "admin" dan password adalah "1234" maka "login berhasil", jika tidak "ussername atau password salah"
